@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.capgemini.test.AccountTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-08-26T17:44:57" hostname="lenovo-PC" time="0.138">
+<testsuite name="com.capgemini.test.AccountTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2016-08-27T16:30:30" hostname="lenovo-PC" time="0.123">
   <properties/>
-  <testcase name="SystemSuccessfullyDepositsAmount" classname="com.capgemini.test.AccountTest" time="0.131"/>
+  <testcase name="SystemSuccessfullyDepositsAmount" classname="com.capgemini.test.AccountTest" time="0.112"/>
   <testcase name="WhenBalanceIsInsufficientInWithdrawAmount" classname="com.capgemini.test.AccountTest" time="0.001"/>
-  <testcase name="whenTheAmountIsLessThan500SystemShouldThrowException" classname="com.capgemini.test.AccountTest" time="0.001"/>
+  <testcase name="whenTheAmountIsLessThan500SystemShouldThrowException" classname="com.capgemini.test.AccountTest" time="0.0"/>
   <testcase name="WhenTheAccountNoisInvalidInWithdrawAmount" classname="com.capgemini.test.AccountTest" time="0.0"/>
   <testcase name="WhenTheAccountNoisInvalidInShowBalance" classname="com.capgemini.test.AccountTest" time="0.0"/>
+  <testcase name="whenTheValidInfoIsNotPassedAccountShouldNotBeCreatedSuccessfully" classname="com.capgemini.test.AccountTest" time="0.0"/>
   <testcase name="SystemSuccessfullyWithdrawAmount" classname="com.capgemini.test.AccountTest" time="0.001"/>
-  <testcase name="whenTheValidInfoIsPassedAccountShouldBeCreatedSuccessfully" classname="com.capgemini.test.AccountTest" time="0.001"/>
-  <testcase name="WhenTheAccountNoisInvalidInDepositAmount" classname="com.capgemini.test.AccountTest" time="0.001"/>
-  <testcase name="SystemSuccessfullyShowsBalance" classname="com.capgemini.test.AccountTest" time="0.001"/>
+  <testcase name="whenTheValidInfoIsPassedAccountShouldBeCreatedSuccessfully" classname="com.capgemini.test.AccountTest" time="0.004"/>
+  <testcase name="WhenTheAccountNoisInvalidInDepositAmount" classname="com.capgemini.test.AccountTest" time="0.0"/>
+  <testcase name="SystemSuccessfullyShowsBalance" classname="com.capgemini.test.AccountTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

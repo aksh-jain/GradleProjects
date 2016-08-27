@@ -59,6 +59,19 @@ public class AccountTest {
 	}
 	
 	
+	@Test
+	public void whenTheValidInfoIsNotPassedAccountShouldNotBeCreatedSuccessfully() throws InsufficientInitialBalanceException 
+	{
+		account.setAccountNumber(101);
+		account.setAmount(5000);
+		
+		when(accountRepository.save(account)).thenReturn(false);
+		
+		assertEquals(null,accountService.createAccount(101, 5000));
+		
+	}
+	
+	
 	
 	@Test(expected = InvalidAccountNumberException.class)
 	public void WhenTheAccountNoisInvalidInShowBalance() throws InvalidAccountNumberException{
